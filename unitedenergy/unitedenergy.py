@@ -3,14 +3,9 @@
 import requests
 import json
 import time
-from enum import Enum
+import daytoreport
 from datetime import datetime
 import collections
-
-class DayToReport(Enum):
-    today = 0
-    yesterday = 1
-    twoDaysAgo = 2
 
 class UnitedEnergy():
 

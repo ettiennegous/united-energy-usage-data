@@ -1,8 +1,8 @@
 # Copyright (c) 2019 Ettienne Gous <ettiennegous@hotmail.com>
 
 import json
-from unitedenergy import DayToReport
 from unitedenergy import UnitedEnergy
+from unitedenergy import DayToReport
 
 with open('config.json') as json_data_file:
     config_settings = json.load(json_data_file)
