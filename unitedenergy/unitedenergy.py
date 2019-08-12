@@ -6,15 +6,23 @@ import time
 import daytoreport
 from datetime import datetime
 import collections
+from daytoreport import DayToReport
 
 class UnitedEnergy():
 
-    def __init__(self, username, password):
+    def __init__(self, username, password, debug = False):
         self.username = username
         self.password = password
+        self.debug = debug
         self.session = requests.session()
         self.apiBase = 'https://energyeasy.ue.com.au/'
         self.__login()
+        
+    def __log_msg(self, *msgs):
+        if self.debug:
+            for msg in msgs:
+                print(msg),
+            print
 
     def __login(self):
         payload = { 'login_email' : self.username, 'login_password' : self.password, 'submit': 'Login'}
@@ -24,21 +32,53 @@ class UnitedEnergy():
             raise Exception('Invalid Login')
 
     def __fetch_usage_data(self, daysOffSet):
-        usage_response = self.session.get(self.apiBase + '/electricityView/period/day/' + str(daysOffSet) + '?_=1565095533911')
+        usage_data_url = self.apiBase + 'electricityView/period/day/' + str(daysOffSet) + '?_=1565095533911'
+        self.__log_msg('Fetching Usage Data:', usage_data_url)
+        usage_response = self.session.get(usage_data_url)
         usage_data_obj = json.loads(usage_response.content)
         return usage_data_obj
 
+    def get_meters(self):
+        meters_array = []
+        response_data = self.__fetch_usage_data(DayToReport.today)
+        for tarrif_type in self.get_tarrif_types():
+            for reading in response_data['selectedPeriod']['consumptionData'][tarrif_type]:
+                for kvp in reading['meters'].items():
+                    if kvp[0] not in meters_array:
+                        meters_array.append(kvp[0])
+        return meters_array
+
+
+    def get_tarrif_types(self):
+        return ['peak', 'offpeak', 'shoulder', 'generation']
+
+    def get_report_types(self):
+        return ['consumptionData', 'costData']
+
     def fetch_and_print_most_recent_usage_data(self, day_to_report):
+        response_data = self.fetch_recent_usage_data(day_to_report)
+        self.__print_usage_data(response_data)
+
+    def fetch_recent_usage_data(self, day_to_report):
         response_data = self.__fetch_usage_data(day_to_report)
         last_known_interval = response_data['latestInterval']
+        self.__log_msg('Last known update was: ', last_known_interval)
         if(self.__request_latest_data_update(last_known_interval)):
             self.__poll_electricity_data_updated(last_known_interval)
-            response_data = self.__fetch_usage_data()
-        self.__print_usage_data(self.__create_usage_data_array(response_data))
+            response_data = self.__fetch_usage_data(day_to_report)
+        return self.__create_usage_data_array(response_data)
+
+    def fetch_last_reading(self, day_to_report):
+        data_to_filter = self.fetch_recent_usage_data(day_to_report)
+        filtered_results = self.__filter_zero_kwh(data_to_filter)
+        return list(filtered_results.items())[-1]
+
+    def __filter_zero_kwh(self, data_to_filter):
+        return dict(filter(lambda elem: elem[1] != 0, data_to_filter.items()))
 
     def __print_usage_data(self, data):
         for date_time in data:
-            print('{0} - {1}'.format(date_time, data[date_time]))
+            self.__log_msg('{0} - {1}'.format(date_time, data[date_time]))
 
     def __create_usage_data_array(self, api_data):
         response_data = collections.OrderedDict()
@@ -51,18 +91,19 @@ class UnitedEnergy():
         return response_data
 
     def __poll_electricity_data_updated(self, last_known_interval):
-        print (last_known_interval)
+        self.__log_msg('Last known interval was:', last_known_interval)
         result = 'false'
+        request_url = self.apiBase + 'electricityView/isElectricityDataUpdated?lastKnownInterval=' + last_known_interval
         while result != 'true':
-            poll_response = self.session.get(self.apiBase + '/electricityView/isElectricityDataUpdated?lastKnownInterval=' + last_known_interval)
-            print 'Polling for true status on latest data received'
+            poll_response = self.session.get(request_url)
+            self.__log_msg('Polling for true status on latest data received: ', request_url)
             result = poll_response.content
             time.sleep(2)
         return result
 
     def __request_latest_data_update(self, last_known_interval):
-        request_url = self.apiBase + '/electricityView/latestData?lastKnownInterval=' + last_known_interval + '&_=1565182358706'
-        print request_url
+        request_url = self.apiBase + 'electricityView/latestData?lastKnownInterval=' + last_known_interval + '&_=1565182358706'
+        self.__log_msg('Request latest data update: ', request_url)
         latest_data_response = self.session.get(request_url)
         response_obj = json.loads(latest_data_response.content)
         should_poll = response_obj['poll'] == 'true'

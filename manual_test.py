@@ -6,6 +6,7 @@ from unitedenergy import DayToReport
 
 with open('config.json') as json_data_file:
     config_settings = json.load(json_data_file)
-    ue = UnitedEnergy(config_settings['username'], config_settings['password'])
-    ue.fetch_and_print_most_recent_usage_data(DayToReport.today)
+    ue = UnitedEnergy(config_settings['username'], config_settings['password'], True)
+    print ue.get_meters()
+    print ue.fetch_last_reading(DayToReport.today)
 
