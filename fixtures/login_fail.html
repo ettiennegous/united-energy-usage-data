@@ -1,0 +1,160 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title>Energy Easy - Login</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="/images/ue/favicon.ico" type="image/x-icon" />
+   <link rel="icon" href="/images/ue/favicon.ico" type="image/x-icon" />
+   <link rel="stylesheet" href="/css/style.css?v=20191027" type="text/css">
+   <link rel="stylesheet" href="/css/ue/main.css?v=20191027" type="text/css">
+   <!--[if IE]><link rel="stylesheet" href="/css/ue/ie.css?v=20191027" type="text/css"><![endif]-->
+   <script src="/js/jquery/jquery-1.6.4.min.js" type="text/javascript" library="jquery"></script>
+
+   <script src="/js/split.js?v=20191027.js" type="text/javascript"></script>
+
+   <script src="/js/application.js?v=20191027.js" type="text/javascript"></script>
+
+   <script src="/js/modernizr-1.7.min.js?v=20191027.js" type="text/javascript"></script>
+
+   <script src="/js/object-keys-polyfill.js?v=20191027.js" type="text/javascript"></script>
+
+   
+   	
+   	<meta name="layout" content="main"/>
+	
+	
+ 		<style type="text/css">
+			#registerButton {
+     	    	display: block;
+     		}
+	    </style>
+    
+    
+
+   <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  
+    ga('create', "UA-76036564-1", 'auto');
+  
+
+  ga('send', 'pageview');
+</script>
+
+   <script type="text/javascript">
+   var isMobile = "" === "true";
+   var isAndroid = "" === "true";
+   var isIPad = "" === "true";
+   var isIPhone = "" === "true";
+</script>
+
+</head>
+<body id="home">
+   <header>
+      <div class="wrapper">
+         <div><a id="branding" href="/"></a></div>
+
+         <div class="user-info">
+            <ul id="user">
+               
+               
+                  <li><a href="/login/index">Log In </a></li>
+                  <li><a href="/register/index" class="btnlbl">Register </a></li>
+               
+               <li><a href="/feedback/index">Contact Us</a></li>
+               <li><a href="/faq/index">FAQ</a></li>
+            </ul>
+            
+         </div>
+
+
+         <div id="ie6warning"><span>Unfortunately this site does not work with Internet Explorer version 6 or 7.<br>Please use a newer version of Internet Explorer, or an alternative browser such as Chrome or Firefox.</span></div>
+         <div id="ie8warning"><span>Unfortunately this site does not work with Internet Explorer in compatibility mode. Please turn off compatibility mode by clicking on the 'Compatibility View' button (<img src='/images/ie8_compatibility.gif'>) before continuing.</span></div>
+         <script type="text/javascript">
+            if($.browser.msie && $.browser.version <= 7) {
+               if (document.documentMode) {
+                   $('#ie8warning').show();
+               } else {
+                   $('#ie6warning').show();
+               }
+            }
+         </script>
+
+         
+      </div>
+   </header>
+   <section class="content" >
+      
+   <div id="main-login" class="main person" role="main" class="wrapper">
+   
+     <form id="loginForm" action="/login_security_check" method="POST">
+         <h1>Sign In</h1>
+         
+         <div class="flash" style="clear:both;margin-bottom:10px"><em class="error">The credentials entered were not recognised, please try again. <br/>If you are not an energy easy customer, please register.</em></div>
+         
+         
+      <label for="login_email">Email Address&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="login_email" label="Email Address" value="" id="login_email" />
+      
+         
+      <label for="login_password">Password&nbsp;&nbsp;&nbsp;</label>
+      <input type="password" name="login_password" label="Password" autocomplete="off" id="login_password" value="" />
+      
+         <div id="forgottenpassword"><a href="/login/forgottenpassword" class="text-link">Forgotten password </a></div>
+         <div id="authregister">
+            
+      <div><input type="submit" id="loginButton" name="submit" value="Login" class="btn"/></div>
+      
+            <div id="registerButton">
+         		<a href="/register/index" class="btn">Register </a>
+         	</div>
+         </div>
+         <div id="message-login">
+            <span class="message-inner">&nbsp;</span>
+            <p class="message-inner">Welcome back. Please log in to access <em>Energy Easy</em>.</p>
+         </div>
+     </form>
+	
+	<script>
+		$(document).ready(function() {
+		
+		   $("#loginButton").click( function() {
+		      showWaitingSpinner();
+		   });
+		
+		   $("#login_email").focus();
+		});
+	</script>
+	
+   </div> 
+
+   </section>
+   
+
+<footer> 
+   <ul> 
+      <li>&copy; 2019 United Energy. All rights reserved.</li>
+      <li>Version: 6.3.4</li>
+      <li><a href="/termsAndConditions/index">Terms and Conditions</a></li>
+      <li id="footerprivacylistid"><a href="https://www.unitedenergy.com.au/privacy/" target="_blank">Privacy</a></li>
+      <li class="last" id="sitepreferencelistid"> 
+		<a href="/?site_preference=normal" id="sitepreferencemainlink">View full Website</a> 
+      </li> 
+      
+   </ul>      
+</footer>
+   <div id="waitingSpinner" style="display:none;"></div>
+</body>
+</html>

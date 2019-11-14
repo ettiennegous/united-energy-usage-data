@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title>Energy Easy - Electricity View</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="/images/ue/favicon.ico" type="image/x-icon" />
+   <link rel="icon" href="/images/ue/favicon.ico" type="image/x-icon" />
+   <link rel="stylesheet" href="/css/style.css?v=20191027" type="text/css">
+   <link rel="stylesheet" href="/css/ue/main.css?v=20191027" type="text/css">
+   <!--[if IE]><link rel="stylesheet" href="/css/ue/ie.css?v=20191027" type="text/css"><![endif]-->
+   <script src="/js/jquery/jquery-1.6.4.min.js" type="text/javascript" library="jquery"></script>
+
+   <script src="/js/split.js?v=20191027.js" type="text/javascript"></script>
+
+   <script src="/js/application.js?v=20191027.js" type="text/javascript"></script>
+
+   <script src="/js/modernizr-1.7.min.js?v=20191027.js" type="text/javascript"></script>
+
+   <script src="/js/object-keys-polyfill.js?v=20191027.js" type="text/javascript"></script>
+
+   
+   <meta name="layout" content="main"/>
+
+   <script src="/js/jquery/jquery.tools.min.js?v=20191027.js" type="text/javascript"></script>
+ <!-- tooltip -->
+    
+
+
+<script type="text/javascript">
+   
+   
+
+
+
+var DEFAULT_TARIFF = {"weekdayPeakCost":"$0.00","weekdayShoulderCost":"$0.00","weekdayOffpeakCost":"$0.00","weekendOffpeakCost":"$0.00","generationCost":"$0.60","singleRateCost":"$0.22","weekdaySlidersConfig":[{"startHour":"0","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"1Tier","name":null,"supplyCharge":"$0.99","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var DEFAULT_ONE_TIER_TARIFF = {"weekdayPeakCost":"$0.00","weekdayShoulderCost":"$0.00","weekdayOffpeakCost":"$0.00","weekendOffpeakCost":"$0.00","generationCost":"$0.60","singleRateCost":"$0.22","weekdaySlidersConfig":[{"startHour":"0","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"1Tier","name":null,"supplyCharge":"$0.99","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var DEFAULT_TWO_TIER_TARIFF = {"weekdayPeakCost":"$0.30","weekdayShoulderCost":"$0.00","weekdayOffpeakCost":"$0.14","weekendOffpeakCost":"$0.14","generationCost":"$0.60","singleRateCost":"$0.00","weekdaySlidersConfig":[{"startHour":"0","endHour":"7"},{"startHour":"7","endHour":"23"},{"startHour":"23","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"2Tier","name":null,"supplyCharge":"$1.04","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var DEFAULT_THREE_TIER_TARIFF = {"weekdayPeakCost":"$0.30","weekdayShoulderCost":"$0.14","weekdayOffpeakCost":"$0.14","weekendOffpeakCost":"$0.14","generationCost":"$0.60","singleRateCost":"$0.00","weekdaySlidersConfig":[{"startHour":"0","endHour":"7"},{"startHour":"7","endHour":"15"},{"startHour":"15","endHour":"23"},{"startHour":"23","endHour":"23"},{"startHour":"23","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"3Tier","name":null,"supplyCharge":"$1.04","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var ONE_TIER = '1Tier';
+var TWO_TIER = '2Tier';
+var THREE_TIER = '3Tier';
+var MAX_GREEN_POWER_PERCENTAGE = 200;
+var MAX_TARIFF_NAME_LENGTH = 30;
+
+   
+
+ var ELECTRICITY_VIEW_BASE_URL = "/electricityView";
+ var APPLICATION_BASE_URL = "";
+ var IMAGES_DIR = "/images";
+ var BRAND_IMAGES_DIR = "/images/ue";
+</script>
+
+
+ 
+     <script src="/js/highcharts/highcharts.js?v=20191027.js" type="text/javascript"></script>
+
+ 
+
+ <script type="text/javascript">
+   var isMobile = "false" === "true";
+   var isAndroid = "false" === "true";
+   var isIPad = "false" === "true";
+   var isIPhone = "false" === "true";
+</script>
+
+ <script src="/js/electricity-usage/charts-config.js?v=20191027.js" type="text/javascript"></script>
+
+ <script src="/js/time-cache-nav.js?v=20191027.js" type="text/javascript"></script>
+
+ <script src="/js/electricity-usage/ue/theme.js?v=20191027.js" type="text/javascript"></script>
+
+ <script src="/js/electricity-usage/chart-data.js?v=20191027.js" type="text/javascript"></script>
+
+ <script src="/js/electricity-usage/bar-charts.js?v=20191027.js" type="text/javascript"></script>
+
+ <script src="/js/jquery/jquery.blockUI.js?v=20191027.js" type="text/javascript"></script>
+ <!-- Used to ensure that the refresh is treated as blocking request. -->
+
+
+    <script src="/js/electricity-usage/navigation.js?v=20191027.js" type="text/javascript"></script>
+
+    <script src="/js/electricity-usage/pie-chart.js?v=20191027.js" type="text/javascript"></script>
+
+    <script src="/js/jquery/jquery.periodicalupdater.modified.js?v=20191027.js" type="text/javascript"></script>
+ <!-- Used to refresh the data. -->
+
+    
+      <link rel="stylesheet" href="/css/electricityView.css?v=20191027" type="text/css">
+      <link rel="stylesheet" href="/css/anythingslider.css?v=20191027" type="text/css">
+      <link rel="stylesheet" href="/css/ue/electricityView.css?v=20191027" type="text/css">
+      <link rel="stylesheet" href="/css/ue/ucw-style.css?v=20191027" type="text/css">
+      <link rel="stylesheet" href="/css/ue/anythingslider.css?v=20191027" type="text/css">
+    
+
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css?v=20191027" type="text/css">
+    <link rel="stylesheet" href="/css/mediaelementplayer/mediaelementplayer.css?v=20191027" type="text/css">
+    <script src="/js/jquery/jquery.fancybox-1.3.4.pack.js?v=20191027.js" type="text/javascript"></script>
+
+    <script src="/js/mediaelement-and-player.min.js?v=20191027.js" type="text/javascript"></script>
+
+    <script src="/js/help-videos.js?v=20191027.js" type="text/javascript"></script>
+
+
+   
+
+   <script type="text/javascript">
+    var UPDATE_TARIFF_URL = "/customer/updateTariff"
+    var UPDATE_GOAL_SETTINGS_URL = "/customer/updateGoal"
+
+    var REFRESH_DATA_URL = "/electricityView/latestData?lastKnownInterval=";
+    var ELECTRICITY_DATA_UPDATED = "/electricityView/isElectricityDataUpdated?lastKnownInterval=";
+    var MIN_PERIODICAL_TIMEOUT = 3000;
+    var MAX_PERIODICAL_TIMEOUT = 3000;
+    var MAX_PERIODICAL_ATTEMPTS = 10;
+
+
+
+    $(document).ready(function() {
+       var periodType = 'week';
+       var offset = 0
+       navigation = new Navigation(periodType, offset);
+       showPeriod({periodType: periodType, offset: offset});
+
+       
+       
+    });
+
+    </script>
+
+   <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  
+    ga('create', "UA-76036564-1", 'auto');
+  
+
+  ga('send', 'pageview');
+</script>
+
+   <script type="text/javascript">
+   var isMobile = "false" === "true";
+   var isAndroid = "false" === "true";
+   var isIPad = "false" === "true";
+   var isIPhone = "false" === "true";
+</script>
+
+</head>
+<body id="home">
+   <header>
+      <div class="wrapper">
+         <div><a id="branding" href="/"></a></div>
+
+         <div class="user-info">
+            <ul id="user">
+               
+                   <li>You are logged in as <a href="/customer/details">John</a></li>
+                   <li><a href="/logout/index">Log Out </a></li>
+               
+               
+               <li><a href="/feedback/index">Contact Us</a></li>
+               <li><a href="/faq/index">FAQ</a></li>
+            </ul>
+            
+               
+                  <div class="site-address-wrapper">
+                     <div class="address">123 SPACE ST SOUTH WHOOP WHOOP 2000 NSW</div> <a href="/switchUser/showUserList">(Change/Add)</a>
+                  </div>
+               
+            
+         </div>
+
+
+         <div id="ie6warning"><span>Unfortunately this site does not work with Internet Explorer version 6 or 7.<br>Please use a newer version of Internet Explorer, or an alternative browser such as Chrome or Firefox.</span></div>
+         <div id="ie8warning"><span>Unfortunately this site does not work with Internet Explorer in compatibility mode. Please turn off compatibility mode by clicking on the 'Compatibility View' button (<img src='/images/ie8_compatibility.gif'>) before continuing.</span></div>
+         <script type="text/javascript">
+            if($.browser.msie && $.browser.version <= 7) {
+               if (document.documentMode) {
+                   $('#ie8warning').show();
+               } else {
+                   $('#ie6warning').show();
+               }
+            }
+         </script>
+
+         
+            
+               <nav>
+                  <a href="/electricityView/index" class="current">Electricity View</a><a href="/device/list" >Your Devices</a><a href="/savingElectricity/index" >Saving Electricity</a><a href="/compare/index" >Compare</a><a href="https://www.unitedenergy.com.au/outage-map/" target="_blank" >Electricity Outages</a>
+               </nav>
+            
+            
+         
+      </div>
+   </header>
+   <section class="content" >
+      
+   <div class="main" role="main" class="wrapper">
+
+      <div class='help-video' data-video-key='electricityView' style='display: none'>  <img class='help-video' src='/images/video_placeholder.jpg'></img></div><script type='text/javascript'>  var config = {"baseUrl":"/videos","placeholder":"images/video_placeholder.jpg","languages":["eng","gre","ita","vie","chi","sud"],"crossDomain":false};  $(document).ready(function () { window.helpVideos.checkForVideo('electricityView', config); });</script>
+
+      <h1>Your Electricity Use</h1>
+      <div id="electricity-view-actions">
+        
+           <a id="refresh-data" class="thickbox btn" href="#">Get latest data</a>
+        
+        
+           <a id="download-reports" class="thickbox target-btn" href="#download-reports-panel">Reports Menu</a>
+        
+      </div>
+
+
+       <!-- START ELECTRICITY USE SECTION -->
+      <section id="electricityUse">
+
+         <div id="viewOptions" class="periodTypeOptions">
+
+            <p>VIEW OPTIONS</p>
+
+            <nav>
+               <a id="day" href="#">Day</a>
+               <a id="week" href="#">Week</a>
+               <a id="month" href="#">Month</a>
+               <a id="season" href="#">Season</a>
+               <a id="year" href="#">Year</a>
+            </nav>
+
+         </div> <!-- end viewOptions -->
+
+         <div id="dataContainer">
+            <!-- START SLIDER -->
+            <div class="anythingSlider anythingSlider-default activeSlider">
+               <div class="anythingWindow">
+                  <ul data-role="listview" class="anythingBase" id="slider">
+
+                  <!--DAY PANEL 1 -->
+                  <!--DAY PANEL 1 -->
+                  <li class="panel activePage">
+                   <!-- HIGHCHARTS VIEW -->
+                   <article id="comparisonCharts">
+                      <div class="data_container_wide" id="currentView">&nbsp;</div>
+                      <div class="data_container_wide" id="pastView">&nbsp;</div>
+                   </article>
+
+				   
+                   <!-- INDICATORS -->
+                   <article id="indicators">
+                      
+
+<script src="/js/jquery/jquery.mousewheel.min.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/prettyCheckboxes.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/electricity-usage/carbon-widget.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/jquery/jquery.tools.min.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/application.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/jquery/jquery.fancybox-1.3.4.pack.js?v=20191027.js" type="text/javascript"></script>
+
+
+
+<style type="text/css">
+
+</style>
+
+<div id="ucw-usecomparison" class="ucw-widget ucw-no-js ucw-cf">
+	<script>(function(H){H.className=H.className.replace(/\bucw-no-js\b/,'ucw-js')})(document.getElementById('ucw-usecomparison'))</script>
+
+	<fieldset class="ucw-set">
+		<legend>Show me my:</legend>
+
+		<div class="ucw-set-tabs">
+			<input type="radio" name="ucw-set-view" checked
+				id="ucw-set-consumption" value="consumption"><label
+				id="ucw-set-consumption-label" for="ucw-set-consumption"
+				class="ucw-set-tab ucw-set-tab-active">Consumption</label> <input
+				type="radio" name="ucw-set-view" id="ucw-set-emissions"
+				value="emissions"><label id="ucw-set-emissions-label"
+				for="ucw-set-emissions" class="ucw-set-tab">CO<sub>2</sub>
+				Emissions
+			</label>
+		</div>
+	</fieldset>
+	<!-- //.ucw-set -->
+
+
+
+	<div id="ucw-consumption" class="ucw-consumption ucw-h ucw-cf">
+      
+       <p id="consumption" class="ucw-use">
+       </p>
+       <p id="cost" class="ucw-use">
+       </p>
+	</div>
+
+
+	<div class="ucw-emissions ucw-is-closed ucw-cf">
+
+		<h2 class="ucw-h ucw-howmuch">
+			How much <a href="javascript:void(0);" class="tip">CO<sub>2</sub>-e</a><div class="tooltip" style="z-index:100;">The carbon comparisons are estimates of the equivalent carbon dioxide emissions for given activities based on information from sources such as the National Greenhouse Accounts Factors published by the Department of Climate Change and Energy Efficiency. Emissions from your electricity consumption are based on the average carbon mix for Victorian electricity generation, less any Green Percentage specified in your tariff.</div>
+         has been emitted?
+		</h2>
+
+		<div id="carbonWidgetWindow" class="ucw-slidewrap">
+			<a href="#" id="leftbutton" class="ucw-slide-nav ucw-slide-nav-left">Left</a>
+			<a href="#" id="rightbutton"
+				class="ucw-slide-nav ucw-slide-nav-right">Right</a>
+			<div id="slideleft" class="ucw-slide">
+				<div class="ucw-inner" id="bitToSlide" style="">
+					<div id="carbonFootprintWidget">
+					</div>
+				</div>
+			</div>
+			<!-- //#slideleft.ucw-slide -->
+		</div>
+		<!-- //.ucw-slidewrap -->
+	</div>
+	<!-- //.ucw-emissions -->
+
+
+
+
+</div>
+<!-- //.ucw-widget -->
+
+                   </article>
+
+                   <!-- USAGE -->
+                   <article id="usage">
+                      <h3>Time of day usage <span id='pieChartPeriodTitle'></span></h3>
+                      <div id="pie-chart" class="peak-pie-chart">&nbsp;</div>
+                      
+                      <div class="access-widget">
+                         <p>Want to change your settings?</p>
+                     	
+                         <a class="show_sliders btn" href="#show_sliders">Set Your Tariff </a>
+                         <span id="setTariffPrompt" style="display:none" class="tipBottomLeft"><a href="#" onclick="return false"></a></span><div class="tooltip">You have not yet told us your electricity prices, select "Set Your Tariff" to enter them. Until you configure your prices all costs will be based on default prices which may not reflect what your electricity retailer charges you.</div>
+                        
+                            <a class="show_goal_settings target-btn" href="#show_goal_settings">Set Your Target </a>
+                        
+                     	
+                      </div>
+                     
+                      <ul class="pie-key">
+                         <li class="peak"><span></span>Peak</li>
+                         <li class="shoulder"><span class="shoulder"></span>Shoulder</li>
+                          <li class="offpeak"><span class="offpeak"></span>Off-Peak</li>
+                      </ul>
+                      
+                   </article>
+                  </li>
+                  <!-- END DAY PANEL 1 -->
+                  </ul>
+               </div>
+
+                <div class="anythingControls">
+                  <span id="backButton" class="arrow back" style="display:none;"><a href="#"> « Previous </a></span>
+                  <span id="forwardButton" class="arrow forward" style="display:none;"><a href="#"> Next » </a></span>
+               </div> <!-- end anythingWindow-->
+
+
+            <!-- ICON LEGEND -->
+            <ul class="legend">
+               <li class="">Values are in kWh</li>
+               <li class="icn-suburb-avg">Your suburb&#39;s average</li>
+               
+                    <li class="icn-target"><span></span>Your target usage</li>
+               
+               <li class="icn-avg"><span></span>Your average usage</li>
+               <li id="contains_estimated" class="estimated" style="display:none">* Contains some <a href="javascript:void(0);" class="tipBottomLeft">estimated</a> data<div id="estimated_tooltip" class="tooltip"></div></li>
+
+            </ul>
+            </div><!-- END anythingControls -->
+         </div><!--end datacontainer-->
+
+      </section> <!--END #electricityUse-->
+
+   </div> <!-- end main -->
+
+   
+      
+
+<link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css?v=20191027" type="text/css">
+
+<script src="/js/jquery/jquery.fancybox-1.3.4.pack.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/electricity-usage/download-reports.js?v=20191027.js" type="text/javascript"></script>
+
+
+<div style="display:none">
+   <div id="download-reports-panel">
+       <h1 class="title">Reports</h1>
+       <div class="information" style="display:none">
+           <span class="icon"></span>
+           <span class="message"><b class="report-name">REPORT_NAME</b> is being sent to your email...</span>
+       </div>
+
+       
+           <h2 class="title">Download Report</h2>
+           <ul>
+               <li><a class="text-link" href="/Retail-Customer-Guide.pdf" target="_blank">Retail Customer Guide <img src="/images/download.png"></a></li>
+           </ul>
+           <h2 class="title">Request Report</h2>
+           <ul>
+               <li><a href="/electricityView/requestReport?reportName=vecReport" onclick="DownloadReports.clearInformation();jQuery.ajax({type:'POST',data:{'reportName': 'vecReport'}, url:'/electricityView/requestReport',success:function(data,textStatus){DownloadReports.signalSuccess('VEC Report');},error:function(XMLHttpRequest,textStatus,errorThrown){DownloadReports.signalFailure(errorThrown);}});return false;" class="text-link email_report" controller="electricityView" action="requestReport">Victorian Energy Compare Data <img src="/images/email.png"></a></li>
+               <li><a href="/electricityView/requestReport?reportName=summaryReport" onclick="DownloadReports.clearInformation();jQuery.ajax({type:'POST',data:{'reportName': 'summaryReport'}, url:'/electricityView/requestReport',success:function(data,textStatus){DownloadReports.signalSuccess('Summary Report');},error:function(XMLHttpRequest,textStatus,errorThrown){DownloadReports.signalFailure(errorThrown);}});return false;" class="text-link email_report" controller="electricityView" action="requestReport">Summary Report <img src="/images/email.png"></a></li>
+               <li><a href="/electricityView/requestReport?reportName=detailedReport" onclick="DownloadReports.clearInformation();jQuery.ajax({type:'POST',data:{'reportName': 'detailedReport'}, url:'/electricityView/requestReport',success:function(data,textStatus){DownloadReports.signalSuccess('Detailed Report');},error:function(XMLHttpRequest,textStatus,errorThrown){DownloadReports.signalFailure(errorThrown);}});return false;" class="text-link email_report" controller="electricityView" action="requestReport">Detailed Report <img src="/images/email.png"></a></li>
+           </ul>
+       
+
+       <div>
+           
+               <a href="#" onclick="DownloadReports.clearInformation(); closeDownloadReports(); return false" class="btn">Close</a>
+           
+        </div>
+    </div>
+</div>
+
+      
+
+
+
+
+
+<style type="text/css">
+    @import url("/css/anythingslider.css?v=20191027");
+    @import url("/css/range-slider.css?v=20191027");
+    /* Customised css */
+    @import url("/css/ue/range-slider.css?v=20191027");
+</style>
+
+<link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css?v=20191027" type="text/css">
+
+<style type="text/css">
+
+.has-tariff #fancybox-wrap {
+	position: absolute;
+	top: center !important; /* center Vertically */
+	margin: auto; /* Center Horizontally */
+	width: 820px !important; /* WIDTH NEED TO BE 820px */
+}
+
+.has-tariff #fancybox-content {
+	width: 780px !important; /* WIDTH NEED TO BE 800px */
+	padding: 20px; /* needed to Center Horizintally */
+   border: none;
+}
+
+</style>
+
+<script src="/js/radio.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/jquery/jquery.validate.min.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/jquery/jquery.validate.ext.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/jquery/jquery.fancybox-1.3.4.pack.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/jquery/jquery.event.drag-1.5.min.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/jquery/jquery.json-2.2.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/electricity-usage/electricity-range-slider.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/electricity-usage/electricity-range-slider-init.js?v=20191027.js" type="text/javascript"></script>
+
+<script src="/js/electricity-usage/set-tariff.js?v=20191027.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+
+
+
+var DEFAULT_TARIFF = {"weekdayPeakCost":"$0.00","weekdayShoulderCost":"$0.00","weekdayOffpeakCost":"$0.00","weekendOffpeakCost":"$0.00","generationCost":"$0.60","singleRateCost":"$0.22","weekdaySlidersConfig":[{"startHour":"0","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"1Tier","name":null,"supplyCharge":"$0.99","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var DEFAULT_ONE_TIER_TARIFF = {"weekdayPeakCost":"$0.00","weekdayShoulderCost":"$0.00","weekdayOffpeakCost":"$0.00","weekendOffpeakCost":"$0.00","generationCost":"$0.60","singleRateCost":"$0.22","weekdaySlidersConfig":[{"startHour":"0","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"1Tier","name":null,"supplyCharge":"$0.99","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var DEFAULT_TWO_TIER_TARIFF = {"weekdayPeakCost":"$0.30","weekdayShoulderCost":"$0.00","weekdayOffpeakCost":"$0.14","weekendOffpeakCost":"$0.14","generationCost":"$0.60","singleRateCost":"$0.00","weekdaySlidersConfig":[{"startHour":"0","endHour":"7"},{"startHour":"7","endHour":"23"},{"startHour":"23","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"2Tier","name":null,"supplyCharge":"$1.04","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var DEFAULT_THREE_TIER_TARIFF = {"weekdayPeakCost":"$0.30","weekdayShoulderCost":"$0.14","weekdayOffpeakCost":"$0.14","weekendOffpeakCost":"$0.14","generationCost":"$0.60","singleRateCost":"$0.00","weekdaySlidersConfig":[{"startHour":"0","endHour":"7"},{"startHour":"7","endHour":"15"},{"startHour":"15","endHour":"23"},{"startHour":"23","endHour":"23"},{"startHour":"23","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":true,"tariffType":"3Tier","name":null,"supplyCharge":"$1.04","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+var ONE_TIER = '1Tier';
+var TWO_TIER = '2Tier';
+var THREE_TIER = '3Tier';
+var MAX_GREEN_POWER_PERCENTAGE = 200;
+var MAX_TARIFF_NAME_LENGTH = 30;
+
+
+var showGenerationSection = false;
+var tariff = {"weekdayPeakCost":"$0.00","weekdayShoulderCost":"$0.00","weekdayOffpeakCost":"$0.00","weekendOffpeakCost":"$0.00","generationCost":"$0.60","singleRateCost":"$0.1623","weekdaySlidersConfig":[{"startHour":"0","endHour":"24"}],"weekendSlidersConfig":[{"startHour":"0","endHour":"24"}],"default":false,"tariffType":"1Tier","name":null,"supplyCharge":"$0.85","supplyChargeType":"dollarsPerDay","greenPowerPercentage":0};
+
+$(document).ready(function() {
+   //Set up the slider data
+   initializeSliders(tariff, null);
+});
+
+</script>
+
+<div style="display:none">
+   <div id="show_sliders">
+      <form id="slidersForm">
+         <div class="widget">
+
+            
+
+            <div class="container">
+
+               <div id="tariffType">
+
+                  <h3 class="no-margin">Please choose your tariff type</h3>
+
+                  <span class="outer">
+                     <label class="label_radio" for="1tierTariff">
+                        <input name="tariffType" id="1tierTariff" value="1Tier" type="radio" />
+                        <span>Single Rate</span>
+                     </label>
+                  </span>
+
+                  <span class="outer">
+                     <label class="label_radio" for="2tierTariff">
+                        <input name="tariffType" id="2tierTariff" value="2Tier" type="radio" />
+                        <span>Peak/Off Peak</span>
+                     </label>
+                  </span>
+                  <span class="outer">
+                     <label class="label_radio" for="3tierTariff">
+                        <input name="tariffType" id="3tierTariff" value="3Tier" type="radio" />
+                        <span>Peak/Off Peak/Shoulder</span>
+                     </label>
+                  </span>
+               </div>
+            </div>
+
+            <div id="1TierTariffWrapper">
+               
+<div class="container">
+
+   <div class="supplyCharge">
+
+      <h3>What is your service to property charge?</h3>
+
+      <div class="number" style="padding-top:0px">
+         <span>
+            Your electricity tariff will include a fixed charge that is specified either by day, month or quarter. This is often called a &quot;service to property&quot; or &quot;supply&quot; charge.
+         </span>
+         <br><br>
+
+         <div class="number-wrap cost-wrap">
+            <label for="supply-charge-1Tier" class="offpeak">Service Charge</label>
+            <input type="input" id="supply-charge-1Tier" name="supply-charge"/>
+
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+         </div>
+
+			
+         <span class="outer"><label class="label_radio" for="dpd-1Tier">
+            <input style="height:15px;margin:2px;" name="supplyChargeType-1Tier" id="dpd-1Tier" value="dollarsPerDay"
+            
+                   type="radio"/><span>$ p/day</span></label>
+         </span>
+         <span class="outer"><label class="label_radio" for="dpm-1Tier">
+            <input name="supplyChargeType-1Tier" id="dpm-1Tier" value="dollarsPerMonth"
+                   type="radio"/><span>$ p/month</span></label>
+         </span>
+
+      </div>
+   </div>
+</div>
+               <div class="container">
+
+   <div class="greenPowerPercentage">
+
+      <h3>What is your percentage of GreenPower?</h3>
+
+      <div class="number" style="padding-top:0px">
+         <span>
+            Some electricity retailers offer to provide you with GreenPower which comes from renewable sources. If you have chosen GreenPower then enter the percentage here. This is used to calculate your carbon footprint.
+         </span>
+         <br><br>
+         <div class="number-wrap percentage-wrap">
+            <label for="green-power-percentage-1Tier" class="offpeak">GreenPower Percentage</label>
+            <input type="input" id="green-power-percentage-1Tier" name="green-power-percentage"/>
+
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+
+         </div>
+         <span class="greenPowerPercentSymbol">%</span>
+      </div>
+   </div>
+</div>
+               <!-- SINGLE RATE -->
+<div class="single-rate-tariff container">
+   <h3>Set your cost per kWh</h3>
+   <div class="number" style="padding-top:0px">
+
+      <div>
+         <div class="number-wrap cost-wrap">
+            <label for="single-rate" class="peak">Single rate</label>
+            <input type="input" id="single-rate" name="single-rate"/>
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+         </div>
+         <span>$/kWh</span>
+      </div>
+   </div>
+</div>
+               <div class="container localGeneration">
+   <h3>Local Generation</h3>
+   <div class="number" style="padding-top:0px">
+      <span>If you have local generation such as solar panels and you feed electricity back into the grid then you may set the price that you are paid here.</span><br>
+      <div class="number-wrap cost-wrap" style="margin-top:5px">
+         <label for="generation" class="generation">Feed-in price </label>
+         <input type="input" id="generation" value="" name="generation" maxlength="8"/>
+         <div class="up-down">
+            <span class="up" title="Increase">UP</span>
+            <span class="down" title="Decrease">DOWN</span>
+         </div>
+      </div>
+      <span>$/kWh</span>
+   </div>
+</div>
+            </div>
+
+            <div id="2TierTariffWrapper">
+               
+<div class="container">
+
+   <div class="supplyCharge">
+
+      <h3>What is your service to property charge?</h3>
+
+      <div class="number" style="padding-top:0px">
+         <span>
+            Your electricity tariff will include a fixed charge that is specified either by day, month or quarter. This is often called a &quot;service to property&quot; or &quot;supply&quot; charge.
+         </span>
+         <br><br>
+
+         <div class="number-wrap cost-wrap">
+            <label for="supply-charge-2Tier" class="offpeak">Service Charge</label>
+            <input type="input" id="supply-charge-2Tier" name="supply-charge"/>
+
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+         </div>
+
+			
+         <span class="outer"><label class="label_radio" for="dpd-2Tier">
+            <input style="height:15px;margin:2px;" name="supplyChargeType-2Tier" id="dpd-2Tier" value="dollarsPerDay"
+            
+                   type="radio"/><span>$ p/day</span></label>
+         </span>
+         <span class="outer"><label class="label_radio" for="dpm-2Tier">
+            <input name="supplyChargeType-2Tier" id="dpm-2Tier" value="dollarsPerMonth"
+                   type="radio"/><span>$ p/month</span></label>
+         </span>
+
+      </div>
+   </div>
+</div>
+               <div class="container">
+
+   <div class="greenPowerPercentage">
+
+      <h3>What is your percentage of GreenPower?</h3>
+
+      <div class="number" style="padding-top:0px">
+         <span>
+            Some electricity retailers offer to provide you with GreenPower which comes from renewable sources. If you have chosen GreenPower then enter the percentage here. This is used to calculate your carbon footprint.
+         </span>
+         <br><br>
+         <div class="number-wrap percentage-wrap">
+            <label for="green-power-percentage-1Tier" class="offpeak">GreenPower Percentage</label>
+            <input type="input" id="green-power-percentage-1Tier" name="green-power-percentage"/>
+
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+
+         </div>
+         <span class="greenPowerPercentSymbol">%</span>
+      </div>
+   </div>
+</div>
+               <div class="container variable-rate-tariff">
+                  <div class="2-tier-slider">
+   <h3>Weekday</h3>
+
+	
+   <div id="hours">
+	      <span>12</span><span>1</span><span>2</span><span>3</span><span>4</span>
+	      <span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+	      <span>10</span><span>11</span><span>12</span><span>1</span>
+	      <span>2</span><span>3</span><span>4</span><span>5</span>
+	      <span>6</span><span>7</span><span>8</span><span>9</span>
+	      <span>10</span><span>11</span><span>12</span>
+   </div>
+
+   <div class="section-wrapper weekday-wrapper-1">
+      <div class="dragger-top"></div>
+      <div class="clear-dragger right"></div>
+      <div class="clear-dragger left"></div>
+      <div class="weekday-section-1 section offpeak">
+         <span class="text">Off Peak</span>
+      </div>
+      <div class="dragger-bottom"></div>
+   </div>
+
+   <div class="section-wrapper weekday-wrapper-3">
+      <div class="dragger-top"></div>
+      <div class="clear-dragger right"></div>
+      <div class="clear-dragger left"></div>
+      <div class="weekday-section-3 section peak">
+         <span class="text">Peak</span>
+      </div>
+      <div class="dragger-bottom"></div>
+   </div>
+
+   <div class="section-wrapper weekday-wrapper-5">
+      <div class="weekday-section-5 section offpeak">
+         <span class="text">Off Peak</span>
+      </div>
+   </div>
+	
+
+</div>
+                  <div class="number">
+                     <span>Set your cost per kWh</span><br>
+                     <div>
+   <div class="number-wrap cost-wrap">
+      <label for="weekday-offpeak" class="offpeak">Off Peak</label>
+      <input type="input" id="weekday-offpeak" name="weekday-offpeak"/>
+      <div class="up-down">
+         <span class="up" title="Increase">UP</span>
+         <span class="down" title="Decrease">DOWN</span>
+      </div>
+   </div>
+   <span>$/kWh</span>
+</div>
+                     <div>
+   <div class="number-wrap cost-wrap">
+      <label for="weekday-peak" class="peak">Peak</label>
+      <input type="input" id="weekday-peak" name="weekday-peak" value="$0.23"/>
+      <div class="up-down">
+         <span class="up" title="Increase">UP</span>
+         <span class="down" title="Decrease">DOWN</span>
+      </div>
+   </div>
+   <span>$/kWh</span>
+</div>
+                  </div>
+               </div>
+               <!-- WEEKEND -->
+<div class="container weekend">
+   <h3>Weekend</h3>
+   <div class="number" style="padding-top:0px">
+      <span>Set your cost per kWh for weekends.</span><br>
+      <div>
+         <div class="number-wrap cost-wrap">
+            <label for="weekend-offpeak" class="offpeak">Weekend</label>
+            <input type="input" id="weekend-offpeak" name="weekend-offpeak"/>
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+         </div>
+         <span>$/kWh</span>
+      </div>
+   </div>
+</div>
+               <div class="container localGeneration">
+   <h3>Local Generation</h3>
+   <div class="number" style="padding-top:0px">
+      <span>If you have local generation such as solar panels and you feed electricity back into the grid then you may set the price that you are paid here.</span><br>
+      <div class="number-wrap cost-wrap" style="margin-top:5px">
+         <label for="generation" class="generation">Feed-in price </label>
+         <input type="input" id="generation" value="" name="generation" maxlength="8"/>
+         <div class="up-down">
+            <span class="up" title="Increase">UP</span>
+            <span class="down" title="Decrease">DOWN</span>
+         </div>
+      </div>
+      <span>$/kWh</span>
+   </div>
+</div>
+            </div>
+
+            <div id="3TierTariffWrapper">
+               
+<div class="container">
+
+   <div class="supplyCharge">
+
+      <h3>What is your service to property charge?</h3>
+
+      <div class="number" style="padding-top:0px">
+         <span>
+            Your electricity tariff will include a fixed charge that is specified either by day, month or quarter. This is often called a &quot;service to property&quot; or &quot;supply&quot; charge.
+         </span>
+         <br><br>
+
+         <div class="number-wrap cost-wrap">
+            <label for="supply-charge-3Tier" class="offpeak">Service Charge</label>
+            <input type="input" id="supply-charge-3Tier" name="supply-charge"/>
+
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+         </div>
+
+			
+         <span class="outer"><label class="label_radio" for="dpd-3Tier">
+            <input style="height:15px;margin:2px;" name="supplyChargeType-3Tier" id="dpd-3Tier" value="dollarsPerDay"
+            
+                   type="radio"/><span>$ p/day</span></label>
+         </span>
+         <span class="outer"><label class="label_radio" for="dpm-3Tier">
+            <input name="supplyChargeType-3Tier" id="dpm-3Tier" value="dollarsPerMonth"
+                   type="radio"/><span>$ p/month</span></label>
+         </span>
+
+      </div>
+   </div>
+</div>
+               <div class="container">
+
+   <div class="greenPowerPercentage">
+
+      <h3>What is your percentage of GreenPower?</h3>
+
+      <div class="number" style="padding-top:0px">
+         <span>
+            Some electricity retailers offer to provide you with GreenPower which comes from renewable sources. If you have chosen GreenPower then enter the percentage here. This is used to calculate your carbon footprint.
+         </span>
+         <br><br>
+         <div class="number-wrap percentage-wrap">
+            <label for="green-power-percentage-1Tier" class="offpeak">GreenPower Percentage</label>
+            <input type="input" id="green-power-percentage-1Tier" name="green-power-percentage"/>
+
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+
+         </div>
+         <span class="greenPowerPercentSymbol">%</span>
+      </div>
+   </div>
+</div>
+               <div class="container variable-rate-tariff">
+                  <div class="3-tier-slider">
+   <h3>Weekday</h3>
+
+	
+   <div id="hours">
+	      <span>12</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+	      <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span>
+	      <span>12</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+	      <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+   </div>
+
+   <div class="weekday-slider">
+      <div class="section-wrapper weekday-wrapper-1">
+         <div class="dragger-top"></div>
+         <div class="clear-dragger right"></div>
+         <div class="clear-dragger left"></div>
+         <div class="weekday-section-1 section offpeak">
+            <span class="text">Off Peak</span>
+         </div>
+         <div class="dragger-bottom"></div>
+      </div>
+
+      <div class="section-wrapper weekday-wrapper-2">
+         <div class="dragger-top"></div>
+         <div class="clear-dragger right"></div>
+         <div class="clear-dragger left"></div>
+         <div class="weekday-section-2 section shoulder">
+            <span class="text">Shoulder</span>
+         </div>
+         <div class="dragger-bottom"></div>
+      </div>
+
+      <div class="section-wrapper weekday-wrapper-3">
+         <div class="dragger-top"></div>
+         <div class="clear-dragger right"></div>
+         <div class="clear-dragger left"></div>
+         <div class="weekday-section-3 section peak">
+            <span class="text">Peak</span>
+         </div>
+         <div class="dragger-bottom"></div>
+      </div>
+
+      <div class="section-wrapper weekday-wrapper-4">
+         <div class="dragger-top"></div>
+         <div class="clear-dragger right"></div>
+         <div class="clear-dragger left"></div>
+         <div class="weekday-section-4 section shoulder">
+            <span class="text">Shoulder</span>
+         </div>
+         <div class="dragger-bottom"></div>
+      </div>
+
+      <div class="section-wrapper weekday-wrapper-5">
+         <div class="weekday-section-5 section offpeak">
+            <span class="text">Off Peak</span>
+         </div>
+      </div>
+   </div>
+   
+</div>
+                  <div class="number">
+                     <span>Set your cost per kWh</span><br>
+                     <div>
+   <div class="number-wrap cost-wrap">
+      <label for="weekday-offpeak" class="offpeak">Off Peak</label>
+      <input type="input" id="weekday-offpeak" name="weekday-offpeak"/>
+      <div class="up-down">
+         <span class="up" title="Increase">UP</span>
+         <span class="down" title="Decrease">DOWN</span>
+      </div>
+   </div>
+   <span>$/kWh</span>
+</div>
+                     <div>
+   <div class="number-wrap cost-wrap">
+      <label for="weekday-peak" class="peak">Peak</label>
+      <input type="input" id="weekday-peak" name="weekday-peak" value="$0.23"/>
+      <div class="up-down">
+         <span class="up" title="Increase">UP</span>
+         <span class="down" title="Decrease">DOWN</span>
+      </div>
+   </div>
+   <span>$/kWh</span>
+</div>
+                     <div class='shoulder-cost-div'>
+   <div class="number-wrap cost-wrap">
+      <label for="weekday-shoulder" class="shoulder">Shoulder</label>
+      <input type="input" id="weekday-shoulder" name="weekday-shoulder"/>
+      <div class="up-down">
+         <span class="up" title="Increase">UP</span>
+         <span class="down" title="Decrease">DOWN</span>
+      </div>
+   </div>
+   <span>$/kWh</span>
+</div>
+                  </div>
+               </div>
+               <!-- WEEKEND -->
+<div class="container weekend">
+   <h3>Weekend</h3>
+   <div class="number" style="padding-top:0px">
+      <span>Set your cost per kWh for weekends.</span><br>
+      <div>
+         <div class="number-wrap cost-wrap">
+            <label for="weekend-offpeak" class="offpeak">Weekend</label>
+            <input type="input" id="weekend-offpeak" name="weekend-offpeak"/>
+            <div class="up-down">
+               <span class="up" title="Increase">UP</span>
+               <span class="down" title="Decrease">DOWN</span>
+            </div>
+         </div>
+         <span>$/kWh</span>
+      </div>
+   </div>
+</div>
+               <div class="container localGeneration">
+   <h3>Local Generation</h3>
+   <div class="number" style="padding-top:0px">
+      <span>If you have local generation such as solar panels and you feed electricity back into the grid then you may set the price that you are paid here.</span><br>
+      <div class="number-wrap cost-wrap" style="margin-top:5px">
+         <label for="generation" class="generation">Feed-in price </label>
+         <input type="input" id="generation" value="" name="generation" maxlength="8"/>
+         <div class="up-down">
+            <span class="up" title="Increase">UP</span>
+            <span class="down" title="Decrease">DOWN</span>
+         </div>
+      </div>
+      <span>$/kWh</span>
+   </div>
+</div>
+            </div>
+
+            <div style="clear:both; padding-top:20px; padding-left:20px">
+               <div id="slidersErrorMessages"></div>
+               <a id="slidersSubmit" href="#" onclick="okSliders(); return false" class="btn">OK</a>
+               <a href="#" onclick="cancelSliders(); return false" class="btn">Cancel</a>
+            </div>
+
+         </div>
+      </form>
+   </div>
+</div style="display:none">
+
+      
+
+<style type="text/css">
+  @import url("/css/ue/track-usage.css?v=20191027");
+</style>
+
+<script src="/js/electricity-usage/set-goal.js?v=20191027.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+       //Set up the goal-settings data
+       goal = null;
+       initializeGoalSettings(goal);
+    });  //End document.ready
+
+</script>
+
+<div style="display:none">
+ <div id="show_goal_settings">
+     <h1>Track Your Usage</h1>
+     <form id="goalSettingsForm">
+     <div id="reduce-widget">
+         <div class="container">
+             <label for="percentageReduction">Your target reduction in electricity usage:</label>
+             <input type="input" id="percentageReduction" name="percentageReduction" size="2" maxlength="2" placeholder="10"/>
+             <div class="up-down">
+                 <span class="up" title="Increase">UP</span>
+                 <span class="down" title="Decrease">DOWN</span>
+             </div>
+             <span id="percent">%</span>
+             <div class="clear"></div>
+             <div id="benchmarkText">
+                <span id="benchmarkDateText" class="label"></span> <span id="benchmarkDate" class="label"></span>
+                 <a href="#" onclick="resetBenchmarkPeriod(); return false" class="grey-btn" id="resetGoalButton">Reset</a>
+                 &nbsp;
+                 <a href="javascript:void(0)" class="tipBottomLeftForce" style="margin: 10 0 0 20px;font-size:130%" id="resetGoalButtonTooltip"> (What&apos;s this?)</a>
+             
+             <div class="tooltip">Your saving target compares your current consumption to the average consumption over the week before you last set your target. Press the 'Reset' button if you would like to update your saving target to compare to last week's average consumption.</div>
+             
+             </div>
+             <div class="clear" style="height: 10px"></div>
+         </div>
+         <input type="hidden" name="resetGoal" id="resetGoal" value="false">
+         
+
+         <br />
+         <h2>Want to track your targets by email?</h2>
+
+         <div class="container">
+             <div id="email-info">
+                 <img src="/images/ue/electricity_goal_preview.jpg" width="92px" height="110px" />
+                 <p>The target tracking email shows you how your electricity consumption this week or month compares to the previous week or month. By choosing to receive a regular email, you will be kept up to date on how you are tracking to your electricity saving target.</p>
+             </div>
+
+             <div id="frequency">
+                 <h3>How often would you like to receive them?</h3>
+                 <span class="outer"><label class="label_radio" for="monthly">
+                 <input name="tracking" id="monthly" value="Monthly" type="radio" /><span>Monthly</span></label></span>
+                 <span class="outer"><label class="label_radio" for="weekly">
+                 <input name="tracking" id="weekly" value="Weekly" type="radio" /><span>Weekly</span></label></span>
+                 <span class="outer"><label class="label_radio" for="never">
+                 <input name="tracking" id="never" value="Never" type="radio" /><span>No&nbsp;Thanks</span></label></span>
+             </div>
+
+         </div>
+         
+
+         <div>
+             <div id="goalSettingsErrorMessages"></div>
+             <a href="#" onclick="okGoalSettings(); return false" class="target-btn">Set Target</a>
+             <a href="#" onclick="cancelGoalSettings(); return false" class="grey-btn">Cancel</a>
+         </div>
+     </div>
+ </form>
+
+ </div>
+</div>
+
+   
+   <script>
+$("a.tip").tooltip(ACP.getTooltipOptions('top', 'center')).dynamic({ bottom: { direction: 'down', bounce: true } });
+$(".tipBottomLeft").tooltip(ACP.getTooltipOptions('bottom', 'left')).dynamic({ top: { direction: 'down', bounce: true} });
+$(".tipBottomLeftForce").tooltip(ACP.getTooltipOptions('bottom', 'left'));
+$(".tipBottomCentre").tooltip(ACP.getTooltipOptions('bottom', 'center')).dynamic({ top: { direction: 'down', bounce: false} });
+</script>
+   
+
+   </section>
+   
+
+<footer> 
+   <ul> 
+      <li>&copy; 2019 United Energy. All rights reserved.</li>
+      <li>Version: 6.3.4</li>
+      <li><a href="/termsAndConditions/index">Terms and Conditions</a></li>
+      <li id="footerprivacylistid"><a href="https://www.unitedenergy.com.au/privacy/" target="_blank">Privacy</a></li>
+      <li class="last" id="sitepreferencelistid"> 
+		<a href="/?site_preference=normal" id="sitepreferencemainlink">View full Website</a> 
+      </li> 
+      
+   </ul>      
+</footer>
+   <div id="waitingSpinner" style="display:none;"></div>
+</body>
+</html>

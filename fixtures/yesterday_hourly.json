@@ -1,0 +1,2195 @@
+{
+    "selectedPeriod": {
+        "consumptionData": {
+            "peak": [
+                {
+                    "total": 0.938,
+                    "meters": {
+                        "1234567": 0.938
+                    }
+                },
+                {
+                    "total": 0.313,
+                    "meters": {
+                        "1234567": 0.313
+                    }
+                },
+                {
+                    "total": 0.288,
+                    "meters": {
+                        "1234567": 0.288
+                    }
+                },
+                {
+                    "total": 0.263,
+                    "meters": {
+                        "1234567": 0.263
+                    }
+                },
+                {
+                    "total": 0.276,
+                    "meters": {
+                        "1234567": 0.276
+                    }
+                },
+                {
+                    "total": 0.276,
+                    "meters": {
+                        "1234567": 0.276
+                    }
+                },
+                {
+                    "total": 0.787,
+                    "meters": {
+                        "1234567": 0.787
+                    }
+                },
+                {
+                    "total": 1.313,
+                    "meters": {
+                        "1234567": 1.313
+                    }
+                },
+                {
+                    "total": 1,
+                    "meters": {
+                        "1234567": 1
+                    }
+                },
+                {
+                    "total": 0.812,
+                    "meters": {
+                        "1234567": 0.812
+                    }
+                },
+                {
+                    "total": 1.05,
+                    "meters": {
+                        "1234567": 1.05
+                    }
+                },
+                {
+                    "total": 1.75,
+                    "meters": {
+                        "1234567": 1.75
+                    }
+                },
+                {
+                    "total": 1.35,
+                    "meters": {
+                        "1234567": 1.35
+                    }
+                },
+                {
+                    "total": 0.424,
+                    "meters": {
+                        "1234567": 0.424
+                    }
+                },
+                {
+                    "total": 0.825,
+                    "meters": {
+                        "1234567": 0.825
+                    }
+                },
+                {
+                    "total": 0.612,
+                    "meters": {
+                        "1234567": 0.612
+                    }
+                },
+                {
+                    "total": 0.862,
+                    "meters": {
+                        "1234567": 0.862
+                    }
+                },
+                {
+                    "total": 1.387,
+                    "meters": {
+                        "1234567": 1.387
+                    }
+                },
+                {
+                    "total": 1.463,
+                    "meters": {
+                        "1234567": 1.463
+                    }
+                },
+                {
+                    "total": 0.863,
+                    "meters": {
+                        "1234567": 0.863
+                    }
+                },
+                {
+                    "total": 0.863,
+                    "meters": {
+                        "1234567": 0.863
+                    }
+                },
+                {
+                    "total": 0.625,
+                    "meters": {
+                        "1234567": 0.625
+                    }
+                },
+                {
+                    "total": 0.513,
+                    "meters": {
+                        "1234567": 0.513
+                    }
+                },
+                {
+                    "total": 0.837,
+                    "meters": {
+                        "1234567": 0.837
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "suburbAverage": [
+                0.582,
+                0.485,
+                0.417,
+                0.384,
+                0.374,
+                0.379,
+                0.433,
+                0.506,
+                0.597,
+                0.656,
+                0.665,
+                0.635,
+                0.61,
+                0.58,
+                0.57,
+                0.569,
+                0.597,
+                0.681,
+                0.754,
+                0.781,
+                0.779,
+                0.736,
+                0.611,
+                0.48
+            ]
+        },
+        "customerCounts": {
+            "peak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "offpeak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "shoulder": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "generation": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "costData": {
+            "peak": [
+                {
+                    "total": 0.1522374,
+                    "meters": {
+                        "1234567": 0.1522374
+                    }
+                },
+                {
+                    "total": 0.0507999,
+                    "meters": {
+                        "1234567": 0.0507999
+                    }
+                },
+                {
+                    "total": 0.0467424,
+                    "meters": {
+                        "1234567": 0.0467424
+                    }
+                },
+                {
+                    "total": 0.0426849,
+                    "meters": {
+                        "1234567": 0.0426849
+                    }
+                },
+                {
+                    "total": 0.0447948,
+                    "meters": {
+                        "1234567": 0.0447948
+                    }
+                },
+                {
+                    "total": 0.0447948,
+                    "meters": {
+                        "1234567": 0.0447948
+                    }
+                },
+                {
+                    "total": 0.1277301,
+                    "meters": {
+                        "1234567": 0.1277301
+                    }
+                },
+                {
+                    "total": 0.2130999,
+                    "meters": {
+                        "1234567": 0.2130999
+                    }
+                },
+                {
+                    "total": 0.1623,
+                    "meters": {
+                        "1234567": 0.1623
+                    }
+                },
+                {
+                    "total": 0.1317876,
+                    "meters": {
+                        "1234567": 0.1317876
+                    }
+                },
+                {
+                    "total": 0.170415,
+                    "meters": {
+                        "1234567": 0.170415
+                    }
+                },
+                {
+                    "total": 0.284025,
+                    "meters": {
+                        "1234567": 0.284025
+                    }
+                },
+                {
+                    "total": 0.219105,
+                    "meters": {
+                        "1234567": 0.219105
+                    }
+                },
+                {
+                    "total": 0.0688152,
+                    "meters": {
+                        "1234567": 0.0688152
+                    }
+                },
+                {
+                    "total": 0.1338975,
+                    "meters": {
+                        "1234567": 0.1338975
+                    }
+                },
+                {
+                    "total": 0.0993276,
+                    "meters": {
+                        "1234567": 0.0993276
+                    }
+                },
+                {
+                    "total": 0.1399026,
+                    "meters": {
+                        "1234567": 0.1399026
+                    }
+                },
+                {
+                    "total": 0.2251101,
+                    "meters": {
+                        "1234567": 0.2251101
+                    }
+                },
+                {
+                    "total": 0.2374449,
+                    "meters": {
+                        "1234567": 0.2374449
+                    }
+                },
+                {
+                    "total": 0.1400649,
+                    "meters": {
+                        "1234567": 0.1400649
+                    }
+                },
+                {
+                    "total": 0.1400649,
+                    "meters": {
+                        "1234567": 0.1400649
+                    }
+                },
+                {
+                    "total": 0.1014375,
+                    "meters": {
+                        "1234567": 0.1014375
+                    }
+                },
+                {
+                    "total": 0.0832599,
+                    "meters": {
+                        "1234567": 0.0832599
+                    }
+                },
+                {
+                    "total": 0.1358451,
+                    "meters": {
+                        "1234567": 0.1358451
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ]
+        },
+        "periodType": "day",
+        "offset": 1,
+        "title": "Yesterday",
+        "subtitle": "Sunday 10 November 2019",
+        "categories": [
+            " ",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "estimated": false,
+        "validated": true,
+        "netConsumption": 19.69,
+        "consumptionDataAvailable": true,
+        "consumptionRatePercentages": {
+            "peak": 100,
+            "offpeak": 0,
+            "shoulder": 0
+        },
+        "averageNetConsumptionPerSubPeriod": 0.82,
+        "netConsumptionForUsageComparisonPeriod": 19.69
+    },
+    "comparisonPeriod": {
+        "consumptionData": {
+            "peak": [
+                {
+                    "total": 0.326,
+                    "meters": {
+                        "1234567": 0.326
+                    }
+                },
+                {
+                    "total": 0.288,
+                    "meters": {
+                        "1234567": 0.288
+                    }
+                },
+                {
+                    "total": 0.6,
+                    "meters": {
+                        "1234567": 0.6
+                    }
+                },
+                {
+                    "total": 0.263,
+                    "meters": {
+                        "1234567": 0.263
+                    }
+                },
+                {
+                    "total": 0.65,
+                    "meters": {
+                        "1234567": 0.65
+                    }
+                },
+                {
+                    "total": 0.5,
+                    "meters": {
+                        "1234567": 0.5
+                    }
+                },
+                {
+                    "total": 0.775,
+                    "meters": {
+                        "1234567": 0.775
+                    }
+                },
+                {
+                    "total": 1.35,
+                    "meters": {
+                        "1234567": 1.35
+                    }
+                },
+                {
+                    "total": 0.713,
+                    "meters": {
+                        "1234567": 0.713
+                    }
+                },
+                {
+                    "total": 0.862,
+                    "meters": {
+                        "1234567": 0.862
+                    }
+                },
+                {
+                    "total": 0.938,
+                    "meters": {
+                        "1234567": 0.938
+                    }
+                },
+                {
+                    "total": 0.413,
+                    "meters": {
+                        "1234567": 0.413
+                    }
+                },
+                {
+                    "total": 0.925,
+                    "meters": {
+                        "1234567": 0.925
+                    }
+                },
+                {
+                    "total": 0.937,
+                    "meters": {
+                        "1234567": 0.937
+                    }
+                },
+                {
+                    "total": 0.962,
+                    "meters": {
+                        "1234567": 0.962
+                    }
+                },
+                {
+                    "total": 1.075,
+                    "meters": {
+                        "1234567": 1.075
+                    }
+                },
+                {
+                    "total": 1.65,
+                    "meters": {
+                        "1234567": 1.65
+                    }
+                },
+                {
+                    "total": 1.213,
+                    "meters": {
+                        "1234567": 1.213
+                    }
+                },
+                {
+                    "total": 1.063,
+                    "meters": {
+                        "1234567": 1.063
+                    }
+                },
+                {
+                    "total": 1.151,
+                    "meters": {
+                        "1234567": 1.151
+                    }
+                },
+                {
+                    "total": 0.813,
+                    "meters": {
+                        "1234567": 0.813
+                    }
+                },
+                {
+                    "total": 1.038,
+                    "meters": {
+                        "1234567": 1.038
+                    }
+                },
+                {
+                    "total": 0.6,
+                    "meters": {
+                        "1234567": 0.6
+                    }
+                },
+                {
+                    "total": 0.7,
+                    "meters": {
+                        "1234567": 0.7
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "suburbAverage": [
+                0.603,
+                0.511,
+                0.443,
+                0.418,
+                0.414,
+                0.423,
+                0.494,
+                0.609,
+                0.718,
+                0.716,
+                0.699,
+                0.704,
+                0.759,
+                0.782,
+                0.776,
+                0.785,
+                0.839,
+                0.918,
+                0.949,
+                0.924,
+                0.885,
+                0.838,
+                0.733,
+                0.601
+            ]
+        },
+        "customerCounts": {
+            "peak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "offpeak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "shoulder": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "generation": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "costData": {
+            "peak": [
+                {
+                    "total": 0.0529098,
+                    "meters": {
+                        "1234567": 0.0529098
+                    }
+                },
+                {
+                    "total": 0.0467424,
+                    "meters": {
+                        "1234567": 0.0467424
+                    }
+                },
+                {
+                    "total": 0.09738,
+                    "meters": {
+                        "1234567": 0.09738
+                    }
+                },
+                {
+                    "total": 0.0426849,
+                    "meters": {
+                        "1234567": 0.0426849
+                    }
+                },
+                {
+                    "total": 0.105495,
+                    "meters": {
+                        "1234567": 0.105495
+                    }
+                },
+                {
+                    "total": 0.08115,
+                    "meters": {
+                        "1234567": 0.08115
+                    }
+                },
+                {
+                    "total": 0.1257825,
+                    "meters": {
+                        "1234567": 0.1257825
+                    }
+                },
+                {
+                    "total": 0.219105,
+                    "meters": {
+                        "1234567": 0.219105
+                    }
+                },
+                {
+                    "total": 0.1157199,
+                    "meters": {
+                        "1234567": 0.1157199
+                    }
+                },
+                {
+                    "total": 0.1399026,
+                    "meters": {
+                        "1234567": 0.1399026
+                    }
+                },
+                {
+                    "total": 0.1522374,
+                    "meters": {
+                        "1234567": 0.1522374
+                    }
+                },
+                {
+                    "total": 0.0670299,
+                    "meters": {
+                        "1234567": 0.0670299
+                    }
+                },
+                {
+                    "total": 0.1501275,
+                    "meters": {
+                        "1234567": 0.1501275
+                    }
+                },
+                {
+                    "total": 0.1520751,
+                    "meters": {
+                        "1234567": 0.1520751
+                    }
+                },
+                {
+                    "total": 0.1561326,
+                    "meters": {
+                        "1234567": 0.1561326
+                    }
+                },
+                {
+                    "total": 0.1744725,
+                    "meters": {
+                        "1234567": 0.1744725
+                    }
+                },
+                {
+                    "total": 0.267795,
+                    "meters": {
+                        "1234567": 0.267795
+                    }
+                },
+                {
+                    "total": 0.1968699,
+                    "meters": {
+                        "1234567": 0.1968699
+                    }
+                },
+                {
+                    "total": 0.1725249,
+                    "meters": {
+                        "1234567": 0.1725249
+                    }
+                },
+                {
+                    "total": 0.1868073,
+                    "meters": {
+                        "1234567": 0.1868073
+                    }
+                },
+                {
+                    "total": 0.1319499,
+                    "meters": {
+                        "1234567": 0.1319499
+                    }
+                },
+                {
+                    "total": 0.1684674,
+                    "meters": {
+                        "1234567": 0.1684674
+                    }
+                },
+                {
+                    "total": 0.09738,
+                    "meters": {
+                        "1234567": 0.09738
+                    }
+                },
+                {
+                    "total": 0.11361,
+                    "meters": {
+                        "1234567": 0.11361
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ]
+        },
+        "periodType": "day",
+        "offset": 2,
+        "title": "2 days ago",
+        "subtitle": "Saturday 9 November 2019",
+        "categories": [
+            " ",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "estimated": false,
+        "validated": true,
+        "netConsumption": 19.805,
+        "consumptionDataAvailable": true,
+        "consumptionRatePercentages": {
+            "peak": 100,
+            "offpeak": 0,
+            "shoulder": 0
+        },
+        "averageNetConsumptionPerSubPeriod": 0.83,
+        "netConsumptionForUsageComparisonPeriod": 19.805
+    },
+    "comparisonAvailable": true,
+    "costDifference": -0.02,
+    "kwhPercentageDifference": -1,
+    "costDifferenceMessage": {
+        "text": "We estimate your  cost  decreased $0.02",
+        "keyword": "\\$0.02",
+        "change": "decrease"
+    },
+    "consumptionDifferenceMessage": {
+        "text": "Your  consumption yesterday  decreased 1% compared to 2 days ago",
+        "ruleName": "decreased",
+        "change": "decrease",
+        "keyword": "1%"
+    },
+    "isPreviousPeriodDataAvailable": true,
+    "isNextPeriodDataAvailable": true,
+    "isDrillDownAvailable": false,
+    "subPeriodType": "hour",
+    "selectedPeriodUpToDate": true,
+    "customerHasGenerationData": false,
+    "periodMetadata": {
+        "periodType": "day",
+        "offset": 1
+    },
+    "carbonWidgetConfig": {
+        "examples": [
+            {
+                "mass": 9.3,
+                "label": "Chadstone Shopping Centre to Hampton",
+                "tooltip": "Drive from Chadstone Shopping Centre to Hampton in a LandCruiser",
+                "icon": "Car_Land_Rover.png",
+                "userFriendlyMass": "9.3kg"
+            },
+            {
+                "mass": 19,
+                "label": "Melbourne to Mornington",
+                "tooltip": "Drive from Melbourne to Mornington in a LandCruiser",
+                "icon": "Car_Land_Rover.png",
+                "userFriendlyMass": "19kg"
+            },
+            {
+                "mass": 28,
+                "label": "Melbourne to Torquay",
+                "tooltip": "Drive from Melbourne to Torquay in a LandCruiser",
+                "icon": "Car_Land_Rover.png",
+                "userFriendlyMass": "28kg"
+            },
+            {
+                "mass": 37,
+                "label": "Melbourne to Yarra Glen",
+                "tooltip": "Drive from Melbourne to Yarra Glen in a semi trailer",
+                "icon": "Car_Semi.png",
+                "userFriendlyMass": "37kg"
+            },
+            {
+                "mass": 47,
+                "label": "Melbourne to Mornington",
+                "tooltip": "Drive from Melbourne to Mornington in a semi trailer",
+                "icon": "Car_Semi.png",
+                "userFriendlyMass": "47kg"
+            }
+        ],
+        "selectedPeriod": {
+            "carbonFootprint": 27,
+            "carbonFootprintDescription": "Yesterday",
+            "carbonFootprintWithUnit": "27kg"
+        },
+        "comparisonPeriod": {
+            "carbonFootprint": 27,
+            "carbonFootprintDescription": "2 days ago",
+            "carbonFootprintWithUnit": "27kg"
+        }
+    },
+    "latestInterval": "2019-11-11:42",
+    "tariffType": "1Tier"
+}

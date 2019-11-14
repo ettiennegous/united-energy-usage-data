@@ -1,0 +1,775 @@
+{
+    "selectedPeriod": {
+        "consumptionData": {
+            "peak": [
+                {
+                    "total": 13.719,
+                    "meters": {
+                        "1234567": 13.719
+                    }
+                },
+                {
+                    "total": 18.939,
+                    "meters": {
+                        "1234567": 18.939
+                    }
+                },
+                {
+                    "total": 19.688,
+                    "meters": {
+                        "1234567": 19.688
+                    }
+                },
+                {
+                    "total": 10.497,
+                    "meters": {
+                        "1234567": 10.497
+                    }
+                },
+                {
+                    "total": 13.469,
+                    "meters": {
+                        "1234567": 13.469
+                    }
+                },
+                {
+                    "total": 19.805,
+                    "meters": {
+                        "1234567": 19.805
+                    }
+                },
+                {
+                    "total": 19.69,
+                    "meters": {
+                        "1234567": 19.69
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "suburbAverage": [
+                13.263,
+                12.696,
+                12.057,
+                14.09,
+                15.566,
+                16.52,
+                13.748
+            ]
+        },
+        "customerCounts": {
+            "peak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "offpeak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "shoulder": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "generation": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "costData": {
+            "peak": [
+                {
+                    "total": 2.2265937,
+                    "meters": {
+                        "1234567": 2.2265937
+                    }
+                },
+                {
+                    "total": 3.0737997,
+                    "meters": {
+                        "1234567": 3.0737997
+                    }
+                },
+                {
+                    "total": 3.1953624,
+                    "meters": {
+                        "1234567": 3.1953624
+                    }
+                },
+                {
+                    "total": 1.7036631,
+                    "meters": {
+                        "1234567": 1.7036631
+                    }
+                },
+                {
+                    "total": 2.1860187,
+                    "meters": {
+                        "1234567": 2.1860187
+                    }
+                },
+                {
+                    "total": 3.2143515,
+                    "meters": {
+                        "1234567": 3.2143515
+                    }
+                },
+                {
+                    "total": 3.195687,
+                    "meters": {
+                        "1234567": 3.195687
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ]
+        },
+        "periodType": "week",
+        "offset": 1,
+        "title": "Last week",
+        "subtitle": "Monday 4 November 2019",
+        "categories": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT",
+            "SUN"
+        ],
+        "estimated": false,
+        "validated": true,
+        "netConsumption": 115.807,
+        "consumptionDataAvailable": true,
+        "consumptionRatePercentages": {
+            "peak": 100,
+            "offpeak": 0,
+            "shoulder": 0
+        },
+        "averageNetConsumptionPerSubPeriod": 16.54,
+        "netConsumptionForUsageComparisonPeriod": 115.807,
+        "weekendDayNumbers": [
+            6,
+            7
+        ]
+    },
+    "comparisonPeriod": {
+        "consumptionData": {
+            "peak": [
+                {
+                    "total": 7.419,
+                    "meters": {
+                        "1234567": 7.419
+                    }
+                },
+                {
+                    "total": 8.373,
+                    "meters": {
+                        "1234567": 8.373
+                    }
+                },
+                {
+                    "total": 7.047,
+                    "meters": {
+                        "1234567": 7.047
+                    }
+                },
+                {
+                    "total": 6.437,
+                    "meters": {
+                        "1234567": 6.437
+                    }
+                },
+                {
+                    "total": 6.502,
+                    "meters": {
+                        "1234567": 6.502
+                    }
+                },
+                {
+                    "total": 10.36,
+                    "meters": {
+                        "1234567": 10.36
+                    }
+                },
+                {
+                    "total": 23.829,
+                    "meters": {
+                        "1234567": 23.829
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "suburbAverage": [
+                12.281,
+                13.088,
+                13.521,
+                18.191,
+                22.321,
+                12.544,
+                11.593
+            ]
+        },
+        "customerCounts": {
+            "peak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "offpeak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "shoulder": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "generation": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "costData": {
+            "peak": [
+                {
+                    "total": 1.2041037,
+                    "meters": {
+                        "1234567": 1.2041037
+                    }
+                },
+                {
+                    "total": 1.3589379,
+                    "meters": {
+                        "1234567": 1.3589379
+                    }
+                },
+                {
+                    "total": 1.1437281,
+                    "meters": {
+                        "1234567": 1.1437281
+                    }
+                },
+                {
+                    "total": 1.0447251,
+                    "meters": {
+                        "1234567": 1.0447251
+                    }
+                },
+                {
+                    "total": 1.0552746,
+                    "meters": {
+                        "1234567": 1.0552746
+                    }
+                },
+                {
+                    "total": 1.681428,
+                    "meters": {
+                        "1234567": 1.681428
+                    }
+                },
+                {
+                    "total": 3.8674467,
+                    "meters": {
+                        "1234567": 3.8674467
+                    }
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ]
+        },
+        "periodType": "week",
+        "offset": 2,
+        "title": "2 weeks ago",
+        "subtitle": "Monday 28 October 2019",
+        "categories": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT",
+            "SUN"
+        ],
+        "estimated": false,
+        "validated": true,
+        "netConsumption": 69.967,
+        "consumptionDataAvailable": true,
+        "consumptionRatePercentages": {
+            "peak": 100,
+            "offpeak": 0,
+            "shoulder": 0
+        },
+        "averageNetConsumptionPerSubPeriod": 10,
+        "netConsumptionForUsageComparisonPeriod": 69.967,
+        "weekendDayNumbers": [
+            6,
+            7
+        ]
+    },
+    "comparisonAvailable": true,
+    "costDifference": 7.44,
+    "kwhPercentageDifference": 66,
+    "costDifferenceMessage": {
+        "text": "We estimate your  cost  increased $7.44",
+        "keyword": "\\$7.44",
+        "change": "increase"
+    },
+    "consumptionDifferenceMessage": {
+        "text": "Your  consumption last week  increased 66% compared to 2 weeks ago",
+        "ruleName": "increased",
+        "change": "increase",
+        "keyword": "66%"
+    },
+    "isPreviousPeriodDataAvailable": true,
+    "isNextPeriodDataAvailable": true,
+    "isDrillDownAvailable": true,
+    "subPeriodType": "day",
+    "selectedPeriodUpToDate": true,
+    "customerHasGenerationData": false,
+    "periodMetadata": {
+        "periodType": "week",
+        "offset": 1
+    },
+    "carbonWidgetConfig": {
+        "examples": [
+            {
+                "mass": 39,
+                "label": "Melbourne to Lakes entrance",
+                "tooltip": "Drive from Melbourne to Lakes entrance in a VW Golf",
+                "icon": "Car_Golf.png",
+                "userFriendlyMass": "39kg"
+            },
+            {
+                "mass": 97,
+                "label": "Melbourne to Geelong",
+                "tooltip": "Drive from Melbourne to Geelong in a road train truck",
+                "icon": "Car_Road_Train.png",
+                "userFriendlyMass": "97kg"
+            },
+            {
+                "mass": 153,
+                "label": "Melbourne to Brisbane",
+                "tooltip": "Drive from Melbourne to Brisbane in a Prius",
+                "icon": "Car_Prius.png",
+                "userFriendlyMass": "153kg"
+            },
+            {
+                "mass": 206,
+                "label": "Melbourne to Brisbane",
+                "tooltip": "Drive from Melbourne to Brisbane in a VW Golf",
+                "icon": "Car_Golf.png",
+                "userFriendlyMass": "206kg"
+            },
+            {
+                "mass": 279,
+                "label": "Melbourne to Brisbane",
+                "tooltip": "Drive from Melbourne to Brisbane in a Commodore",
+                "icon": "Car_Commodore.png",
+                "userFriendlyMass": "279kg"
+            }
+        ],
+        "selectedPeriod": {
+            "carbonFootprint": 156,
+            "carbonFootprintDescription": "Last week",
+            "carbonFootprintWithUnit": "156kg"
+        },
+        "comparisonPeriod": {
+            "carbonFootprint": 95,
+            "carbonFootprintDescription": "2 weeks ago",
+            "carbonFootprintWithUnit": "95kg"
+        }
+    },
+    "latestInterval": "2019-11-11:44",
+    "tariffType": "1Tier"
+}
