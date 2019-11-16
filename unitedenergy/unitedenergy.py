@@ -7,13 +7,9 @@ import logging
 import requests
 from .reportperiod import ReportPeriod
 from .periodoffset import PeriodOffset
+from .unitedenergyerror import UnitedEnergyError
 
 _LOGGER = logging.getLogger(__name__)
-
-
-class UnitedEnergyError(Exception):
-    """United Energy error occurred."""
-
 
 class UnitedEnergy:
     """United Energy Website and API abstraction."""
@@ -230,5 +226,9 @@ class UnitedEnergy:
         self.__log_msg("Request latest data update: ", request_url)
         latest_data_response = self.session.get(request_url)
         response_obj = json.loads(latest_data_response.content)
-        return response_obj["poll"]
+        if "poll" in response_obj:
+            return response_obj["poll"]
+        else:
+            raise UnitedEnergyError("Did not receive data to determine if polling is required")
+
 
