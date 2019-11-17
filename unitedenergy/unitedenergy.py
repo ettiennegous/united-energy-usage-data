@@ -127,21 +127,17 @@ class UnitedEnergy:
         for index, value in enumerate(
             usage_data["selectedPeriod"]["consumptionData"]["peak"]
         ):
-            if (
-                value["total"] == 0
-            ):  # This may not work if you actually use no power at all for an interval, most houses will have continual load.
-                break
-
-            response_data["total"] += value["total"]
-            response_data["timestamp"] = self.__derive_timestamp_from_array_position(
-                reportperiod, collection_date, index
-            )
-            response_data["price"] += usage_data["selectedPeriod"]["costData"]["peak"][
-                index
-            ]["total"]
-            self.__log_msg(
-                "New total {0} {1}".format(response_data["total"], value["total"])
-            )
+            if (value["total"] != 0): 
+                response_data["total"] += value["total"]
+                response_data["timestamp"] = self.__derive_timestamp_from_array_position(
+                    reportperiod, collection_date, index
+                )
+                response_data["price"] += usage_data["selectedPeriod"]["costData"]["peak"][
+                    index
+                ]["total"]
+                self.__log_msg(
+                    "New total {0} {1}".format(response_data["total"], value["total"])
+                )
 
         return response_data
 
