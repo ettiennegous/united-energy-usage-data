@@ -1,0 +1,1107 @@
+{
+    "selectedPeriod": {
+        "consumptionData": {
+            "peak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 264.851,
+                    "meters": {
+                        "1234567": 264.851
+                    }
+                },
+                {
+                    "total": 618.97,
+                    "meters": {
+                        "1234567": 618.97
+                    }
+                },
+                {
+                    "total": 659.125,
+                    "meters": {
+                        "1234567": 659.125
+                    }
+                },
+                {
+                    "total": 615.452,
+                    "meters": {
+                        "1234567": 615.452
+                    }
+                },
+                {
+                    "total": 538.364,
+                    "meters": {
+                        "1234567": 538.364
+                    }
+                },
+                {
+                    "total": 400.37,
+                    "meters": {
+                        "1234567": 400.37
+                    }
+                },
+                {
+                    "total": 243.835,
+                    "meters": {
+                        "1234567": 243.835
+                    }
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "suburbAverage": [
+                522.784,
+                427.799,
+                462.147,
+                387.805,
+                478.306,
+                552.431,
+                563.93,
+                580.211,
+                457.684,
+                415.953,
+                221.009,
+                null
+            ]
+        },
+        "customerCounts": {
+            "peak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "offpeak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "shoulder": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "generation": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "costData": {
+            "peak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 42.9853173,
+                    "meters": {
+                        "1234567": 42.9853173
+                    }
+                },
+                {
+                    "total": 100.458831,
+                    "meters": {
+                        "1234567": 100.458831
+                    }
+                },
+                {
+                    "total": 106.9759875,
+                    "meters": {
+                        "1234567": 106.9759875
+                    }
+                },
+                {
+                    "total": 99.8878596,
+                    "meters": {
+                        "1234567": 99.8878596
+                    }
+                },
+                {
+                    "total": 87.3764772,
+                    "meters": {
+                        "1234567": 87.3764772
+                    }
+                },
+                {
+                    "total": 64.980051,
+                    "meters": {
+                        "1234567": 64.980051
+                    }
+                },
+                {
+                    "total": 39.5744205,
+                    "meters": {
+                        "1234567": 39.5744205
+                    }
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ]
+        },
+        "periodType": "year",
+        "offset": 0,
+        "title": "This year",
+        "subtitle": "2019",
+        "categories": [
+            "JAN",
+            "FEB",
+            "MAR",
+            "APR",
+            "MAY",
+            "JUN",
+            "JUL",
+            "AUG",
+            "SEP",
+            "OCT",
+            "NOV",
+            "DEC"
+        ],
+        "estimated": true,
+        "validated": false,
+        "netConsumption": 3340.967,
+        "consumptionDataAvailable": true,
+        "consumptionRatePercentages": {
+            "peak": 100,
+            "offpeak": 0,
+            "shoulder": 0
+        },
+        "averageNetConsumptionPerSubPeriod": 549.92,
+        "netConsumptionForUsageComparisonPeriod": 3340.967
+    },
+    "comparisonPeriod": {
+        "consumptionData": {
+            "peak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "suburbAverage": [
+                548.264,
+                441.596,
+                420.843,
+                386.02,
+                491.229,
+                576.641,
+                588.003,
+                573.576,
+                466.823,
+                390.443,
+                377.214,
+                459.18
+            ]
+        },
+        "customerCounts": {
+            "peak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "offpeak": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "shoulder": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "generation": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "costData": {
+            "peak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "offpeak": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "shoulder": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ],
+            "generation": [
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                },
+                {
+                    "total": 0,
+                    "meters": {}
+                }
+            ]
+        },
+        "periodType": "year",
+        "offset": 1,
+        "title": "Last year",
+        "subtitle": "2018",
+        "categories": [
+            "JAN",
+            "FEB",
+            "MAR",
+            "APR",
+            "MAY",
+            "JUN",
+            "JUL",
+            "AUG",
+            "SEP",
+            "OCT",
+            "NOV",
+            "DEC"
+        ],
+        "estimated": false,
+        "validated": true,
+        "netConsumption": 0,
+        "consumptionDataAvailable": false,
+        "averageNetConsumptionPerSubPeriod": null,
+        "netConsumptionForUsageComparisonPeriod": null
+    },
+    "comparisonAvailable": false,
+    "costDifferenceMessage": {
+        "text": "We don't have enough information to estimate your change in cost at this time.",
+        "keyword": null,
+        "change": "unavailable"
+    },
+    "consumptionDifferenceMessage": {
+        "text": "We don't have enough information to calculate your change in consumption at this time.",
+        "ruleName": "noData",
+        "change": "unavailable",
+        "keyword": null
+    },
+    "isPreviousPeriodDataAvailable": false,
+    "isNextPeriodDataAvailable": false,
+    "isDrillDownAvailable": true,
+    "subPeriodType": "month",
+    "selectedPeriodUpToDate": false,
+    "customerHasGenerationData": false,
+    "periodMetadata": {
+        "periodType": "year",
+        "offset": 0
+    },
+    "carbonWidgetConfig": {
+        "examples": [
+            {
+                "mass": 2500,
+                "label": "Footy team from Melbourne to Sydney",
+                "tooltip": "Fly a football team from Melbourne to Sydney",
+                "icon": "Airplane_Footy.png",
+                "userFriendlyMass": "2.5t"
+            },
+            {
+                "mass": 3600,
+                "label": "Melbourne to Cairns",
+                "tooltip": "Drive from Melbourne to Cairns in a road train truck",
+                "icon": "Car_Road_Train.png",
+                "userFriendlyMass": "3.6t"
+            },
+            {
+                "mass": 4400,
+                "label": "Melbourne to Perth",
+                "tooltip": "Drive from Melbourne to Perth in a road train truck",
+                "icon": "Car_Road_Train.png",
+                "userFriendlyMass": "4.4t"
+            },
+            {
+                "mass": 5300,
+                "label": "Couple in unit for 1 year",
+                "tooltip": "A couple living in a unit for a year",
+                "icon": "Couple_Unit.png",
+                "userFriendlyMass": "5.3t"
+            },
+            {
+                "mass": 7100,
+                "label": "Couple in house for 1 year",
+                "tooltip": "A couple living in a house for a year",
+                "icon": "Couple_House.png",
+                "userFriendlyMass": "7.1t"
+            }
+        ],
+        "selectedPeriod": {
+            "carbonFootprint": 4500,
+            "carbonFootprintDescription": "So far this year",
+            "carbonFootprintWithUnit": "4.5 tonnes"
+        }
+    },
+    "latestInterval": "2019-11-17:38",
+    "tariffType": "1Tier"
+}
